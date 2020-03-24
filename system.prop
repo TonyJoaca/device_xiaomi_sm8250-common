@@ -3,6 +3,10 @@ persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
 tunnel.audio.encode=true
 
+# Audio (Dolby)
+debug.stagefright.omx_default_rank.sw-audio=16
+ro.control_privapp_permissions=log
+
 # Blur
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
