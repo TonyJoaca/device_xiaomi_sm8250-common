@@ -418,7 +418,8 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac \
-    libwfdaac_vendor
+    libwfdaac_vendor \
+    libdisplayconfig.qti.vendor
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
