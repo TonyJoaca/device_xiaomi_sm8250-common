@@ -325,7 +325,6 @@ PRODUCT_PACKAGES += \
     init.qti.media.sh \
 
 PRODUCT_PACKAGES += \
-    init.nfc.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.target.rc \
