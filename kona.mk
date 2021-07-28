@@ -159,12 +159,7 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libipanat \
     liboffloadhal
-    
-# Lights
-PRODUCT_PACKAGES += \
-    lights.kona \
-    android.hardware.lights-service.qti
-    
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
