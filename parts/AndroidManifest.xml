@@ -28,14 +28,12 @@
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="24"/>
+        android:minSdkVersion="31"
+        android:targetSdkVersion="31"/>
 
     <application
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
-        android:persistent="true"
-        android:theme="@style/Theme.Main">
+        android:persistent="true">
 
         <receiver android:name=".BootCompletedReceiver">
             <intent-filter>
@@ -50,16 +48,14 @@
 
         <activity
             android:name=".doze.DozeSettingsActivity"
-            android:label="@string/ambient_display_title">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            android:label="@string/ambient_display_title"
+            android:theme="@style/Theme.SubSettingsBase">
         </activity>
 
         <activity
             android:name=".touchsampling.TouchSamplingSettingsActivity"
             android:label="@string/htsr_enable_title"
-            android:theme="@style/Theme.Main">
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
