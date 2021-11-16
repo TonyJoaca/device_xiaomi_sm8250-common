@@ -40,6 +40,9 @@ vendor.iop.enable_uxe=0
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+# Maintainer
+ro.octavi.maintainer=TonyJoaca
+
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
